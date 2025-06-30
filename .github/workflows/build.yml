@@ -14,10 +14,10 @@ jobs:
         with:
           xcode-version: latest-stable
             
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v3
 
       - name: Checkout theos/theos
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
         with:
           repository: theos/theos
           ref: master
@@ -25,7 +25,7 @@ jobs:
           path: theos
 
       - name: Checkout SDKs
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
         with:
           repository: xybp888/iOS-SDKs
           ref: master
@@ -51,10 +51,10 @@ jobs:
         with:
           xcode-version: '14.2'
             
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v3
 
       - name: Checkout theos/theos
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
         with:
           repository: theos/theos
           ref: master
@@ -62,7 +62,7 @@ jobs:
           path: theos
 
       - name: Checkout SDKs
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
         with:
           repository: xybp888/iOS-SDKs
           ref: master
