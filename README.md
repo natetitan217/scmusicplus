@@ -39,3 +39,4 @@ For troubleshooting assistance, please see the issues section of this repository
 
 # Depiction
 For the most updated package depiction, including changelogs and known bugs, you can view it here: https://rov3r.github.io/depictions/scmusicplus.html
+<!-- trigger build -->
